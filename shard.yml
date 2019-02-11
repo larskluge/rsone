@@ -1,0 +1,15 @@
+name: rsone
+version: 0.1.0
+
+authors:
+  - Lars Kluge <l@larskluge.com>
+
+description: |
+  Prints one entry of a Redis Stream to stdout. Either randomly selected or user-defined by key.
+
+dependencies:
+  redis:
+    github: aemadrid/crystal-redis
+    branch: feature/streams
+
+license: MIT
