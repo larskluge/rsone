@@ -12,4 +12,8 @@ dependencies:
     github: aemadrid/crystal-redis
     branch: feature/streams
 
+targets:
+  rsone:
+    main: src/main.cr
+
 license: MIT
