@@ -14,7 +14,7 @@ field = ARGV[2]? || ""
 help if stream.blank?
 
 
-redis = Redis.new
+redis = Redis.new(url: ENV["REDIS_URL"])
 
 # When no key is provided, choose one randomly
 #
